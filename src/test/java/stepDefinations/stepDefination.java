@@ -45,6 +45,7 @@ public class stepDefination {
     public void home_page_is_populated() throws Throwable {
       //home page validation
     	System.out.println("Validated home page");
+    	System.out.println("Changes made by Sandeep");
     }
     @When("^User login into application with \"([^\"]*)\" and password \"([^\"]*)\"$")
     public void user_login_into_application_with_something_and_password_something(String arg1, String arg2) throws Throwable {
